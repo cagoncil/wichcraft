@@ -1,3 +1,4 @@
+
 .LandingPage {
 	background-image: url('../public/img/background-burg.jpg');
 	background-size: 100vh;
@@ -14,10 +15,7 @@
 	justify-content: center;
 	align-items: stretch;
 	flex-direction: column;
-/*  	text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
-             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;*/
-/*  	text-shadow: -2px -2px 0 darkbrown, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 sienna;
-*/}
+}
 
 .LandingPage-title h1 {
 	font-family: 'Playfair Display SC';
@@ -36,5 +34,142 @@
 	font-family: 'Pangolin';
 	padding-left: 0.5em;
 	font-size: 3em;
-	color: #333;
+	color: #15120E;
+	-webkit-animation: glow 3s ease-in-out infinite alternate;
+  	-moz-animation: glow 3s ease-in-out infinite alternate;
+  	-o-animation: glow 3s ease-in-out infinite alternate;
+  	animation: glow 3s linear infinite alternate;
+
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #525249, 0 0 120px #7B7B6E, 0 0 30px #525249, 0 0 140px #525249, 0 0 50px #444, 0 0 60px #444, 0 0 170px #222;  }
+  
+  to {
+    text-shadow: 0 0 30px #A3A393, 0 0 40px #444, 0 0 150px #525249, 0 0 60px #525249, 0 0 70px #444, 0 0 90px #444, 0 0 100px #222;
+  }
+}
+
+@-moz-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #525249, 0 0 120px #7B7B6E, 0 0 30px #525249, 0 0 140px #525249, 0 0 50px #444, 0 0 60px #444, 0 0 170px #222;  }
+  
+  to {
+    text-shadow: 0 0 30px #A3A393, 0 0 40px #444, 0 0 150px #525249, 0 0 60px #525249, 0 0 70px #444, 0 0 90px #444, 0 0 100px #222;
+  }
+}
+
+@-o-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #525249, 0 0 120px #7B7B6E, 0 0 30px #525249, 0 0 140px #525249, 0 0 50px #444, 0 0 60px #444, 0 0 170px #222;  }
+  
+  to {
+    text-shadow: 0 0 30px #A3A393, 0 0 40px #444, 0 0 150px #525249, 0 0 60px #525249, 0 0 70px #444, 0 0 90px #444, 0 0 100px #222;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #525249, 0 0 120px #7B7B6E, 0 0 30px #525249, 0 0 140px #525249, 0 0 50px #444, 0 0 60px #444, 0 0 170px #222;  }
+  
+  to {
+    text-shadow: 0 0 30px #A3A393, 0 0 40px #444, 0 0 150px #525249, 0 0 60px #525249, 0 0 70px #444, 0 0 90px #444, 0 0 100px #222;
+  }
+}
+
+
+@media (max-width: 280px) {
+
+	.LandingPage {
+		background-position: center;
+		padding: 1em;
+	}
+
+	.LandingPage-title {
+		justify-content: flex-end;
+		text-align: center;
+	}
+
+	.LandingPage-title h1 {
+	  	font-size: 3em;
+	}
+
+	.LandingPage-title h3 {
+		font-size: 1.2em;
+		color: #544838;
+	}
+}
+
+
+/* Media Query for Mobile Devices */
+@media (min-width: 281px) and (max-width: 480px) {
+
+	.LandingPage {
+		background-position: center;
+		padding: 1em;
+	}
+
+	.LandingPage-title {
+		justify-content: flex-end;
+		text-align: center;
+	}
+
+	.LandingPage-title h1 {
+	  	font-size: 4em;
+	  	-webkit-text-fill-color: rgba(0,0,0,0.8);
+	  	-webkit-text-stroke: 1px;
+	}
+
+	.LandingPage-title h3 {
+		font-size: 1.65em;
+		color: #544838;
+	}
+
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+	.LandingPage {
+		background-position: center;
+		padding: 1em;
+	}
+
+	.LandingPage-title {
+		justify-content: flex-end;
+		text-align: center;
+	}
+
+	.LandingPage-title h1 {
+	  	font-size: 6em;
+	  	-webkit-text-fill-color: rgba(0,0,0,0.8);
+	  	-webkit-text-stroke: 1px;
+	}
+
+	.LandingPage-title h3 {
+		font-size: 2.25em;
+		color: #544838;
+	}
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+
+	.LandingPage {
+		background-position: center;
+	}
+
+	.LandingPage-title {
+		justify-content: flex-end;
+		text-align: center;
+	}
+
+	.LandingPage-title h1 {
+	  	-webkit-text-fill-color: rgba(0,0,0,0.6);
+	  	-webkit-text-stroke: 2px;
+	  	margin-bottom: 0;
+	}
 }

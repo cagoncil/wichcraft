@@ -5,7 +5,7 @@ function LandingPage() {
     <div className="LandingPage">
     	<div className="LandingPage-title">
     	<h1><em>wich</em>craft.</h1>
-    	<h3>Enchantingly, bewitchingly good food</h3>
+    	<h3>Enchantingly good brews and eats</h3>
     	</div>
     </div>
   );
