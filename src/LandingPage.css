@@ -1,0 +1,19 @@
+.LandingPage {
+  background-image: url('../public/img/background-burg.jpg');
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: #000;
+  height: 100vh;
+  padding: 2em;
+}
+
+.LandingPage-text {
+	height: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	font-family: 'Ubuntu';
+	color: #fff;
+  	font-size: 3em;
+}
