@@ -1,19 +1,40 @@
 .LandingPage {
-  background-image: url('../public/img/background-burg.jpg');
-  background-size: 100vh;
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-color: #000;
-  height: 100vh;
-  padding: 2em;
+	background-image: url('../public/img/background-burg.jpg');
+	background-size: 100vh;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-color: #000;
+	height: 100vh;
+	padding: 5em;
 }
 
-.LandingPage-text {
+.LandingPage-title {
 	height: 100%;
 	display: flex;
-	justify-content: left;
-	align-items: center;
-	font-family: 'Ubuntu';
-	color: #fff;
-  	font-size: 3em;
+	justify-content: center;
+	align-items: stretch;
+	flex-direction: column;
+/*  	text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;*/
+/*  	text-shadow: -2px -2px 0 darkbrown, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 sienna;
+*/}
+
+.LandingPage-title h1 {
+	font-family: 'Playfair Display SC';
+	color: tan;
+  	font-size: 8em;
+  	-webkit-text-fill-color: rgba(0,0,0,0.6);
+  	-webkit-text-stroke: 1px;
+  	margin-bottom: 0;
+}
+
+.LandingPage-title em {
+	color: beige;
+}
+
+.LandingPage-title h3 {
+	font-family: 'Pangolin';
+	padding-left: 0.5em;
+	font-size: 3em;
+	color: #333;
 }
