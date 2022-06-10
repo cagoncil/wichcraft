@@ -4,8 +4,8 @@ function LandingPage() {
   return (
     <div className="LandingPage">
     	<div className="LandingPage-title">
-    	<h1><em>wich</em>craft.</h1>
-    	<h3>Enchantingly good brews and eats</h3>
+	    	<h1><em>wich</em>craft.</h1>
+	    	<h3>Enchantingly good brews and eats</h3>
     	</div>
     </div>
   );
