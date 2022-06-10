@@ -20,7 +20,12 @@
 	transition: color linear 0.15s;
 }
 
-
+.Navbar-collapse {
+	margin: auto 2em auto;
+	color: tan;
+	height: 2em;
+	display: none;
+}
 
 
 .Navbar a:hover {
